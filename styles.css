@@ -1,0 +1,92 @@
+body {  
+    font-family: Arial, sans-serif;    line-height: 1.6;  
+    margin: 0;  
+    padding: 0;  
+  }  
+    .nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+  }  
+    .nav__link:hover {  
+    color: red;  
+  }  
+  .content {  
+    padding: 20px;  
+  }  
+    
+  .footer {  
+    background-color: #2ac832;  
+    color: #0ff01e;  
+    text-align: center;  
+    padding: 10px 0;  
+  } 
+  #special {
+    color: gold; 
+  }
+  .header__menu-link:hover {
+    color: red  ;
+    text-decoration:underline;
+  }
+ h2 {
+  color: green;
+} 
+h3 {
+  color: rgb(237, 245, 246);
+} 
+#paragraph {
+  background-color:rgb(223, 209, 16)
+}
+.border {
+  border: 1px solid red;
+    padding: 30px;
+}
+.element {
+  background-color: red;
+}
+.nav__link::after {       
+  content: 
+  color #000;
+  ]
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px;
+  background-color: #bec161;
+  color: #881111;
+  font-family: "Roboto", sans-serif;
+}
+form div {
+  margin-top: 1rem;
+}
+
+label, input, textarea, button, select{
+  font-size: 1.3rem;
+  line-height: 1.2
+}
+
+form {
+  width: 30em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+input, textarea {
+  padding: 0.4rem;
+  width: 100%;
+}
+
+button {
+  margin-top: 2rem;
+  background: #f694ff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+}
